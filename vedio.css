@@ -1,0 +1,126 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   
+}
+
+.maindiv{
+    width: 100%;
+    height:100vh ;
+   
+    margin-top: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.maindiv .submain-1{
+    width: 75%;
+    height: 100vh;
+  
+    
+   
+}
+.submain-1-video{
+     width: 95%;
+     margin: auto;
+}
+.submain-1-video video{
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(27, 26, 26);
+    width: 100%;
+    height: 450px;
+    
+}
+.submain-1-video h2{
+    color: white;
+    font-size: 30px;
+}
+.submain-1-video .chanel-inform{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.submain-1-video .chanel-inform img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    
+}
+.submain-1-video .chanel-inform .subcrib h4{
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+.submain-1-video .chanel-inform .subcrib{
+    margin-left: 20px;
+    color: white;
+}
+.submain-1-video .chanel-inform .subcrib p{
+    margin-left: 20px;
+    color: rgb(95, 88, 88);
+}
+.submain-1-video .chanel-inform button{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 25px;
+    margin-left: 30px;
+}
+
+
+.maindiv .submain-2{
+    width: 23%;
+    height: 500px;
+    margin-top: -90px;
+  
+ 
+   
+    
+   
+  
+}
+
+
+.submain-2 .video-1 {
+   width: 100%;
+   height: 90px;
+   
+  margin-top:16px;
+
+   display: flex;
+   flex-direction: row;
+
+}
+.video-1 .thumnail{
+      width: 150px;
+      height: 130px;
+      
+      border-radius: 10px;
+      margin-left: 6px;
+      
+}
+.video-info{
+    width: 80%;
+    height:50px;
+    text-align: start;
+   
+    margin-left: 12px;
+    
+   
+   
+}
+
+.video-info p{
+    font-size: 16px;
+    text-align: start;
+    color: white;
+    font-weight: 900;
+}
+
